@@ -163,17 +163,17 @@ if selected == 'Home':
 
   with col1:
     st.markdown('<div class="hover-box">', unsafe_allow_html=True)
-    st.image(diabetes_img, use_container_width=True)
+    st.image(diabetes_img, width=700)
     st.markdown('<div class="caption">Diabetes Prediction</div></div>', unsafe_allow_html=True)
 
   with col2:
     st.markdown('<div class="hover-box">', unsafe_allow_html=True)
-    st.image(heart_img, use_container_width=True)
+    st.image(heart_img, width=700)
     st.markdown('<div class="caption">Heart Disease Prediction</div></div>', unsafe_allow_html=True)
 
   with col3:
     st.markdown('<div class="hover-box">', unsafe_allow_html=True)
-    st.image(lung_img, use_container_width=True)
+    st.image(lung_img, width=700)
     st.markdown('<div class="caption">Lung Cancer Prediction</div></div>', unsafe_allow_html=True)
     
           # Inject custom CSS for background and text styling
