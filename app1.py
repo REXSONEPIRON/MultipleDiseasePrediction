@@ -119,7 +119,7 @@ if selected == 'Home':
     <div style='text-align: center; margin-top: 30px; font-size:18px;'>
         This Web Application is designed to help users predict the likelihood of developing certain diseases based on their input features.
         With the use of trained and tested machine learning models, we provide predictions for
-        <span class="highlight">Diabetes</span>, <span class="highlight">Heart Disease</span> and <span class="highlight">Lung Cancer</span>.</div>""", unsafe_allow_html=True)
+        <span class="highlight">Lung Cancer</span>, <span class="highlight">Cardiovascular Disease prediction</span> and <span class="highlight">Diabetes Prediction</span>.</div>""", unsafe_allow_html=True)
     
 
 # Display three disease prediction icons with labels
@@ -161,7 +161,7 @@ if selected == 'Home':
 
   col1, col2, col3 = st.columns(3)
 
-  with col1:
+  with col3:
     st.markdown('<div class="hover-box">', unsafe_allow_html=True)
     st.image(diabetes_img, width=200)
     st.markdown('<div class="caption">Diabetes Prediction</div></div>', unsafe_allow_html=True)
@@ -169,9 +169,9 @@ if selected == 'Home':
   with col2:
     st.markdown('<div class="hover-box">', unsafe_allow_html=True)
     st.image(heart_img, width=200)
-    st.markdown('<div class="caption">Heart Disease Prediction</div></div>', unsafe_allow_html=True)
+    st.markdown('<div class="caption">Cardiovascular Disease prediction</div></div>', unsafe_allow_html=True)
 
-  with col3:
+  with col1:
     st.markdown('<div class="hover-box">', unsafe_allow_html=True)
     st.image(lung_img, width=200)
     st.markdown('<div class="caption">Lung Cancer Prediction</div></div>', unsafe_allow_html=True)
