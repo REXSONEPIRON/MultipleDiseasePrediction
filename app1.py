@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 import numpy as np
-import seaborn as sns
 from streamlit_option_menu import option_menu
 import pickle as pkl
 import smtplib
